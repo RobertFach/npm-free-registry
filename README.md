@@ -6,7 +6,7 @@ This registry is born out of the idea to have a free and extensible registry whi
 The development of the registry is based on the following guidelines:
 - seperation of application and backend (this is the main drawback of the [npm-registry-couchapp](https://github.com/RobertFach/npm-registry-couchapp) backend)
 - extensibility and plugability (in the future, we want to try out microservice architectures)
-- agile, test-driven development with continues integration and continues delivery
+- agile, test-driven development with continuous integration and continuous delivery
 - Hyper-* (tm) :-)
 
 ## Registry API specification
