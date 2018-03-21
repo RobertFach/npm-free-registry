@@ -1,0 +1,28 @@
+{
+  "name": "npm-free-registry",
+  "version": "0.1.0",
+  "description": "A registry implementation compatible with npm registry protocol.",
+  "main": "api/app.js",
+  "scripts": {
+    "start": "node api/app.js",
+    "test": "npm run test:unit && npm run test:acceptance",
+    "test:unit": "mocha \"api/**/*-test.js\"",
+    "test:acceptance": "mocha \"tests/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertFach/npm-free-registry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertFach/npm-free-registry/issues"
+  },
+  "homepage": "https://github.com/RobertFach/npm-free-registry#readme",
+  "dependencies": {
+    "restify": "^6.3.4"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.4"
+  }
+}
